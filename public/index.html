@@ -5,6 +5,18 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script src="http://d3js.org/d3.v3.min.js"></script>
+    <style>
+      .bar {
+        fill: steelblue;
+        stroke: black;
+        stroke-width: 1px;
+        cursor: pointer;
+      }
+
+      .axis {
+        stroke-width: 1px;
+      }
+    </style>
 
   </head>
   <body style="background-color: rgb(242,242,242)">
@@ -23,24 +35,17 @@
       <div class="row">
         <div class="span3">
           <div class="lead" id="quote">
-            <i>"What would you spend today thinking about? Yourself? Or the <b>man</b>
-              that's beside you"</i>
           </div>
 
         </div>
         <div class="span9">
-          <img width="870px" src="images/video.jpg" >
+          <video id="regexvideo" width="670" controls>
+            <source src="videos/video.mp4" type="video/mp4">
+          </video>
         </div>
       </div>
       <div class="row">
         <div id="histogram" class="span9">
-          <img src="images/areachart.png" width="800" >
-        </div>
-      </div>
-
-      <div class="row">
-        <div id="areachart" class="span9">
-          <img src="images/areachart.png" width="800" >
         </div>
       </div>
 
