@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My title</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+  </head>
+  <body style="background-color: rgb(242,242,242)">
+    <div class="container">
+      <div class="row" style="margin-bottom:-15px">
+        <form class="form">
+          <div class="offset3 input-append">
+            <input type="text" placeholder="Search video" id="search" style="" class="span7">
+            <button type="submit" style="height:40px" class="btn"><i class="icon-search"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="row offset3" style="font-weight:300">
+        <small><i>Showing results for <b>man</b></i></small>
+      </div>
+      <div class="row">
+        <div class="span3">
+          <div class="lead" id="quote">
+            <i>"What would you spend today thinking about? Yourself? Or the <b>man</b>
+              that's beside you"</i>
+          </div>
+
+        </div>
+        <div class="span9">
+          <img width="870px" src="images/video.jpg" >
+        </div>
+      </div>
+      <div class="row">
+        <div id="histogram" class="span9">
+          <img src="images/areachart.png" width="800" >
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="areachart" class="span9">
+          <img src="images/areachart.png" width="800" >
+        </div>
+      </div>
+
+    </div>
+    <script src="lib/jquery.min.js"></script>
+    <script src="js/oz.js"></script>
+   </body>
+</html>
